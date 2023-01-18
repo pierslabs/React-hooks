@@ -13,7 +13,7 @@ describe('<useFetch>', () => {
     expect(hasError).toBe(null);
   });
 
-  test('should return load images  && isLoading false', async () => {
+  test('should return load  data && isLoading false', async () => {
     //dont work public API
     // const { result } = renderHook(() => useFetch(url));
     // await waitFor(() => expect(result.current.data.length).toBeGreaterThan(0), {
