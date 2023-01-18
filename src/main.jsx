@@ -22,11 +22,6 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    {/* <React.StrictMode> */}
-    {/* <MainApp /> */}
-    {/* <CounterWithCustomHook /> */}
-    {/* <MultipleCustomHooks /> */}
-    {/* </React.StrictMode> */}
     <TodoApp />
   </BrowserRouter>
 );
