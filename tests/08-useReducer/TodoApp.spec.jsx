@@ -28,7 +28,6 @@ describe('TodoApp', () => {
 
   test('should show component correctly', () => {
     render(<TodoApp />);
-    screen.debug();
     expect(screen.getByText('TODO1')).toBeTruthy();
     expect(screen.getByText('TODO2')).toBeTruthy();
     expect(screen.getByRole('textbox')).toBeTruthy();
