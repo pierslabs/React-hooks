@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { UserContext } from '../../../src/09-useContext/context/UserContext';
-import { LoginPage } from '../../../src/09-useContext/LoginPage';
+import { UserContext } from '../../src/09-useContext/context/UserContext';
+import { LoginPage } from '../../src/09-useContext/LoginPage';
 
 describe('LoginPage', () => {
   test('should show component without user', () => {
